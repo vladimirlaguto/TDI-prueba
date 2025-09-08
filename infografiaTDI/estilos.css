@@ -1,0 +1,81 @@
+@font-face{
+    font-family: "proximanova";
+    src: url(/fuentes/proximanova_bold.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+margin: 0;
+padding: 0;    
+border-collapse: collapse;
+}
+
+h1, h2{
+    font-family: "proximanova";
+    font-weight: bold;
+}
+p{
+    font-family: "proximanova";
+    font-weight: normal;
+}
+html, body {
+  height: 100%;
+  scroll-behavior: smooth;
+  background-color: #FFF600;
+}
+@keyframes fade-down{
+    0% {
+        opacity: 0;
+        transform: translateY(-30px) scale(0.9);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
+@keyframes fade-up {
+    0% {
+        opacity: 0;
+        transform: translateY(-300px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px) ;
+    }
+}
+.tarjeta{
+    background-color: #FFFFFF;
+    display: flex;
+    color: black;
+    padding: 30px ;
+    width: 300px;
+    text-align: center;
+    margin: 15px;
+    border-radius: 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0px 5px 10px gray;
+    animation: fade-down 0.5s;
+
+}
+header{
+    animation: fade-up 1s;
+}
+
+.tarjeta:hover{
+    background-color: #3484FA;
+    color:white;
+    transform: translateY(-10px);
+    transition: all 0.5s;
+}
+
+.bullets{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 100px;
+    background-color: #FFF600;
+   
+}
+
