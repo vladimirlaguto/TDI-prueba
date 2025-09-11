@@ -1,5 +1,0 @@
-hice la home, despues la sección "el límite de lo ético de la extracción de datos" (la parte del gráfico me compliqué yo solo y quedó mal jajaja)
-
-despues hice "¿para qué sirven mis datos?" sin ese cambio de info pero por lo menos para tener algo
-
-y despues las ultimas 2 no hice todavía, por eso es que tienen el mismo html que la home xd
